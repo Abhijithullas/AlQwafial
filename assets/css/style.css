@@ -231,7 +231,7 @@ li{
 
 .sec-title {
     position: relative;
-    top: -5px;
+    top: 15px;
     display: block;
     padding-bottom: 56px;
 }
@@ -5186,7 +5186,7 @@ background-color: #fff;
 }
 .breadcrumb-area .title h1{
     color: #ffffff;
-    font-size: 90px;
+    font-size: 60px;
     line-height: 80px;
     font-weight: 700;
     text-transform: capitalize;
