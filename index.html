@@ -504,73 +504,17 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="partner-box">
-                    <!--Start Single Partner Logo Box-->
-                    <div class="single-partner-logo-box">
-                        <a href="#"><img src="assets/images/brand/costmer1.jpg" alt="Awesome Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="assets/images/brand/overlay-brand-1.png" alt="Awesome Image"></a>    
-                        </div>
-                    </div>
-                    <!--End Single Partner Logo Box-->
-                    <!--Start Single Partner Logo Box-->
-                    <div class="single-partner-logo-box">
-                        <a href="#"><img src="assets/images/brand/Picture2.jpg" alt="Awesome Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="assets/images/brand/overlay-brand-2.png" alt="Awesome Image"></a>    
-                        </div>
-                    </div>
-                    <!--End Single Partner Logo Box-->
-                    <!--Start Single Partner Logo Box-->
-                    <div class="single-partner-logo-box marleft-minus">
-                        <a href="#"><img src="assets/images/brand/Picture3.png" alt="Awesome Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="assets/images/brand/overlay-brand-3.png" alt="Awesome Image"></a>    
-                        </div>
-                    </div>
-                    <!--End Single Partner Logo Box-->
-                    <!--Start Single Partner Logo Box-->
-                    <div class="single-partner-logo-box">
-                        <a href="#"><img src="assets/images/brand/Picture4.jpg" alt="Awesome Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="assets/images/brand/overlay-brand-4.png" alt="Awesome Image"></a>    
-                        </div>
-                    </div>
-                    <!--End Single Partner Logo Box-->
-                    <!--Start Single Partner Logo Box-->
-                    <div class="single-partner-logo-box">
-                        <a href="#"><img src="assets/images/brand/Picture5.jpg" alt="Awesome Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="assets/images/brand/overlay-brand-5.png" alt="Awesome Image"></a>    
-                        </div>
-                    </div>
-                    <!--End Single Partner Logo Box-->
-                    
-                    <!--Start Single Partner Logo Box-->
-                    <div class="single-partner-logo-box">
-                        <a href="#"><img src="assets/images/brand/Picture6.jpg" alt="Awesome Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="assets/images/brand/overlay-brand-6.png" alt="Awesome Image"></a>    
-                        </div>
-                    </div>
-                    <!--End Single Partner Logo Box-->
-                    <!--Start Single Partner Logo Box-->
-                    <div class="single-partner-logo-box">
-                        <a href="#"><img src="assets/images/brand/Picture7.jpg" alt="Awesome Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="assets/images/brand/Picture7.jpg" alt="Awesome Image"></a>    
-                        </div>
-                    </div>
-                    <!--End Single Partner Logo Box-->
-                    <!--Start Single Partner Logo Box-->
-                    <div class="single-partner-logo-box">
-                        <a href="#"><img src="assets/images/brand/Picture8.jpg" alt="Awesome Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="assets/images/brand/Picture8.jpg" alt="Awesome Image"></a>    
-                        </div>
-                    </div>
-                 
-                </div>
+                <section class="client-slider">
+                    <div class="slide"><img src="assets/images/brand/costmer1.jpg"></div>
+                    <div class="slide"><img src="assets/images/brand/overlay-brand-2.png"></div>
+                    <div class="slide"><img src="assets/images/brand/overlay-brand-3.png"></div>
+                    <div class="slide"><img src="assets/images/brand/overlay-brand-4.png"></div>
+                    <div class="slide"><img src="assets/images/brand/overlay-brand-5.png"></div>
+                    <div class="slide"><img src="assets/images/brand/overlay-brand-6.png"></div>
+                    <div class="slide"><img src="assets/images/brand/Picture7.jpg"></div>
+                    <div class="slide"><img src="assets/images/brand/Picture8.jpg"></div>
+                 </section>
+               
             </div>
         </div>
     </div>
@@ -690,7 +634,30 @@
 <!-- thm custom script -->
 <script src="assets/js/custom.js"></script>
 
-
+<script>
+    $(document).ready(function(){
+  $('.client-slider').slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 900,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 3
+      }
+    }]
+  });
+});
+</script>
 
 </body>
 
