@@ -1,9 +1,4 @@
-/***************************************************************************************************************
-||||||||||||||||||||||||||       MASTER STYLESHEET FOR RinBuild             ||||||||||||||||||||||||||||||||||||
-****************************************************************************************************************
-||||||||||||||||||||||||||                TABLE OF CONTENT               |||||||||||||||||||||||||||||||||||||||
-****************************************************************************************************************
-****************************************************************************************************************
+/**
 
 01. Imported styles
 02. Flaticon reset styles
@@ -25,10 +20,7 @@
 18. Blog page style
 19. Blog single style
 20. Contact page style
-
-****************************************************************************************************************
-||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
-****************************************************************************************************************/
+*****/
 
 
 
@@ -239,7 +231,7 @@ li{
 
 .sec-title {
     position: relative;
-    top: -5px;
+    top: 15px;
     display: block;
     padding-bottom: 56px;
 }
@@ -555,8 +547,8 @@ li{
     margin: 0 auto;
     width: 100%;
     min-width: 320px;
-    min-height: 400px;
-    overflow: hidden;  
+    min-height: 261px;
+    overflow: hidden;
 }
 
 
@@ -1403,7 +1395,7 @@ select:focus {
 	left: 0px;
 	top: 0px;
 	width: 100%;
-    margin: 0px;
+	margin: 0px;
 	z-index: 999999;
 	transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
@@ -1603,7 +1595,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 28px 0;
+    padding: 16px 0;
 }
 .header-upper .outer-box {
     position: relative;
@@ -1722,13 +1714,13 @@ select:focus {
 	display: block;
 	color: #ffffff;
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 70px;
 	font-weight: 600;
 	text-transform: uppercase;
-	padding: 25px 0px 25px;
+	padding: 10px 0px 10px;
 	transition: all 500ms ease;
 	opacity: 1;
-    font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 .main-menu .navigation>li>a.home-icon{
     padding: 0;
@@ -2112,7 +2104,7 @@ select:focus {
     z-index: 10;
 }
 .main-slider.style1 {
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 .main-slider .slide{
 	position: relative;
@@ -3454,6 +3446,8 @@ select:focus {
     width: 100%;
     transform: scale(1.0);
     transition: all 700ms ease;
+    aspect-ratio: 3/2;
+    object-fit: fill;
 }
 .single-team-member:hover .img-holder img{
 
@@ -4093,6 +4087,7 @@ select:focus {
 ***/
 .header-style2{
     
+background-color: #fff;
 }
 .header-upper-style2 {
     position: relative;
@@ -4107,7 +4102,7 @@ select:focus {
 .header-upper-left-style2 .logo {
     position: relative;
     display: block;
-    padding: 30px 0;
+    /* padding: 30px 0; */
 }
 .header-upper-right-style2{
     position: relative;
@@ -4120,7 +4115,7 @@ select:focus {
 }
 .main-menu.style2 .navigation>li>a {
     color: #000000;
-    padding: 40px 0px 40px;
+    padding: 15px 0px 15px;
 }
 
 
@@ -4144,7 +4139,7 @@ select:focus {
     float: right;
 }
 .menu-right-content .outer-search-box-style1 {
-    padding: 40px 0;
+    padding: 25px 0;
     margin-left: 50px;
     margin-right: 20px;
 }
@@ -4155,11 +4150,11 @@ select:focus {
     position: relative;
     display: block;
     float: right;
-    padding: 15px 0;
+    padding: 0px 0;
 }
 .quote-button.style2 a {
     color: #ffffff;
-    padding: 0 30px;
+    padding: 15px 30px;
 }
 .quote-button.style2 a:hover{
     background: #030e27;    
@@ -5166,7 +5161,7 @@ select:focus {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 155px 0 113px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     z-index: 10;
 }
 .breadcrumb-area::before {
@@ -5191,7 +5186,7 @@ select:focus {
 }
 .breadcrumb-area .title h1{
     color: #ffffff;
-    font-size: 90px;
+    font-size: 60px;
     line-height: 80px;
     font-weight: 700;
     text-transform: capitalize;
