@@ -188,7 +188,7 @@
                                 </div>
                             </div>
                             <div class="job-right my-4 flex-shrink-0">
-                                <a href="#" class="btn d-block w-100 d-sm-inline-block btn-one">Apply now</a>
+                                <a href="#" class="btn d-block w-100 d-sm-inline-block btn-one" data-toggle="modal" data-target="#fileUplaodForm">Apply now</a>
                             </div>
                         </div>
 
@@ -213,7 +213,7 @@
                                 </div>
                             </div>
                             <div class="job-right my-4 flex-shrink-0">
-                                <a href="#" class="btn d-block w-100 d-sm-inline-block btn-one">Apply now</a>
+                                <a href="#" class="btn d-block w-100 d-sm-inline-block btn-one" data-toggle="modal" data-target="#fileUplaodForm">Apply now</a>
                             </div>
                         </div>
 
@@ -238,7 +238,7 @@
                                 </div>
                             </div>
                             <div class="job-right my-4 flex-shrink-0">
-                                <a href="#" class="btn d-block w-100 d-sm-inline-block btn-one">Apply now</a>
+                                <a href="#" class="btn d-block w-100 d-sm-inline-block btn-one" data-toggle="modal" data-target="#fileUplaodForm">Apply now</a>
                             </div>
                         </div>
 
@@ -263,7 +263,7 @@
                                 </div>
                             </div>
                             <div class="job-right my-4 flex-shrink-0">
-                                <a href="#" class="btn d-block w-100 d-sm-inline-block btn-one">Apply now</a>
+                                <a href="#" class="btn d-block w-100 d-sm-inline-block btn-one" data-toggle="modal" data-target="#fileUplaodForm">Apply now</a>
                             </div>
                         </div>
 
@@ -360,7 +360,80 @@
     <span class="icon-angle"></span>
 </button>
 
-
+<!-- Modal -->
+<div class="modal fade" id="fileUplaodForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Form</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="contact-form">
+                <div class="inner-box">
+                    <form id="" name="contact_form" class="default-form2">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="input-box"> 
+                                    <p>Name:</p>  
+                                    <input type="text" name="form_name" value="" id="name" placeholder="">
+                                </div>      
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="input-box">
+                                    <p>Email Address:</p>   
+                                    <input type="email" name="form_email" id="email" value="" placeholder="">
+                                </div>      
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="input-box">
+                                    <p>Phone:</p>   
+                                    <input type="text" name="form_phone" id="phone" placeholder="">
+                                </div>      
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="input-box">
+                                    <p>Job category:</p>   
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                      </select>
+                                </div>      
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="input-box">
+                                    <p>Upload Resume</p>   
+                                    <div class="form-group">
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                      </div>
+                                </div>      
+                            </div>
+                        </div>
+                       
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="input-box"> 
+                                    <p>Message:</p>      
+                                    <textarea name="form_message" placeholder="" id="message" ></textarea>
+                                </div>      
+                            </div>    
+                        </div>                      
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/aos.js"></script>

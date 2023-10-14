@@ -7109,7 +7109,8 @@ background-color: #fff;
 
 .contact-form form input[type="text"],
 .contact-form form input[type="email"],
-.contact-form form textarea{
+.contact-form form textarea,
+.contact-form form select{
     position: relative;
     display: block;   
     background: #ffffff;
@@ -12582,4 +12583,15 @@ background-color: #fff;
  .client-slider {
 	 padding-top: 120px;
 	 padding-bottom: 40px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #dc0000;
+    border-color: #dc0000;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d20a0a;
+    border-color: #dc0000;
 }
